@@ -1,9 +1,7 @@
-# Webcam & Laptop Mic Setup for Android Emulator Calls
+## Agenda
+Set up the Android emulator so a call uses the laptop **webcam as the front camera** and the **laptop mic as the primary mic**.
 
-## Summary
-Set up the Android emulator so a call uses the laptop **webcam as the front camera** and the **laptop mic as the primary mic**. The approach reuses existing emulator capabilities (config values, command-line flags, and the emulator console) rather than building anything custom.
-
-## What Is Implemented
+## How its done
 - Steps to set config values so the **webcam is the front camera**.
 - Steps to launch the emulator with `-allow-host-audio` so the **laptop mic** is used.
 - A check that the emulator's `hostmicon` state is OK, using the `adb emu avd` command group. This check is also included in the BAT script.
@@ -18,7 +16,7 @@ Set up the Android emulator so a call uses the laptop **webcam as the front came
 
 **Step 1: Laptop 1, camera via emulator settings**
 - Set both front cam and back cam to `webcam0` through the emulator settings.
-- Result: the camera app crashed (crash logs are in `root/logs/`).
+- Result: the camera app crashed (crash logs are in `logs/` folder).
 
 ```
 09-28 09:33:11.409  5094  5094 E AndroidRuntime:  ... 14 more
