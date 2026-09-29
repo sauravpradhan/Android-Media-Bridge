@@ -9,3 +9,4 @@ The demo does not implement a custom Camera HAL or Audio HAL. It reuses the Andr
 Reuse most available emulator capabilities so that it mostly works with varied types of emulators and configs through standard steps. Less code change and no AOSP change thus making the approach more stable.
 
 **Note:** All bat files were previously steps done manually during debugging. AI was used to create the all BAT files.
+          MD files are also generated using AI. Original text without modification is used.
