@@ -1,5 +1,6 @@
 The repo has following contents: 
-Please refer documents in Folder **"docs"** architecture & debugging while going with the below flow. 
+
+Please refer documents in Folder **"docs"**(5 a. 5 b.) architecture & debugging while going with the below flow. 
 
 1) (Prerequisite) Android SDK setup with an AVD downloaded is required- Teste din below setup
    - Android SDK / Emulator version: Android SDK tools API level 35/ Android emulator version 37.1.11.0 (build_id 15917651)
