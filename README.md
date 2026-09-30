@@ -1,18 +1,19 @@
 The repo has following contents: 
+Please refer documents in Folder **"docs"** architecture & debugging while going with the below flow. 
 
-1) Android SDK setup with an AVD downloaded is required 
-   - Android SDK / Emulator version: Android SDK tools APi level 35/ Android emulator version 37.1.11.0 (build_id 15917651)
+1) (Prerequisite) Android SDK setup with an AVD downloaded is required- Teste din below setup
+   - Android SDK / Emulator version: Android SDK tools API level 35/ Android emulator version 37.1.11.0 (build_id 15917651)
    - AVD used: Pixel_10
    - OS: Windows Windows 11
 
-2) Setup can be all done using bat scripts which are in folder(filenames are self explanatory) **"scripts in order"**,
+2) Setup can be all done using bat scripts which are in folder(filenames are self explanatory) **"scripts are in order"**,
 Need to run them in order which performs checks also if all are configured well.
 
-3) Folder **"Demo"** contains the video of the whatsapp call.
+3) Folder **"Demo"** contains the video of the whatsapp call I did with a new number I owned.
 
-4) Folder **"avd config pixel emulator"** the config of the avd. 
+4) Folder **"avd config pixel emulator"** the config of the avd(Incase anything needs to be seen in the config flags/property). 
 
-5) Folder **"docs"** contains two files (Answer for : brief explanation of what you implemented and reused, 
+5) Folder **"docs"** contains two files (Basically Answer for : brief explanation of what you implemented and reused, 
 any limitations, and what would need to change to support a remotely hosted Android device)
    - a) architecture - My overall thought process and how to solve this problem.
    - b) debugging - Debugging contains the steps what I took and what all operations I came across for this solution.
