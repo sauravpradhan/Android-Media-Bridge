@@ -1,8 +1,8 @@
 ## Architecture & thought process
 
-Writing a custom HAL for this is an overkill & not required at all. Prone to run into compatibility issues. So the approach would be use interfaces and configs within the emulator to use the cam which would be ideal and bugfree and standard.
+Writing a custom HAL for this is an overkill & not required at all. Prone to run into compatibility issues. So the approach would be use interfaces and configs within the emulator to use the cam & mic which would be ideal and bugfree and standard.
 
-The demo does not implement a custom Camera HAL or Audio HAL. It reuses the Android Emulator's existing host-device integration in widnows. The host webcam is exposed to the emulator as **webcam0**, while the host microphone is activated through the emulator's **hostmicon** ADB console command.
+The demo does not implement a custom Camera HAL or Audio HAL. This reuses the Android Emulator's existing host-device integration in widnows. The host webcam is exposed to the emulator as **webcam0**, while the host microphone is activated through the emulator's command line extra & verified via  **hostmicon** ADB emulator console command.
 
 ## Approach
 
